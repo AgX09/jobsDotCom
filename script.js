@@ -21,6 +21,7 @@ searchInputName.addEventListener("input", function (e) {
 //in India will be shown
 
 //Tried but worked partially, so I added a simple location search too
+//API had info for only states in India, so it works only for indian states
 searchInputLocation.addEventListener("input", function (e) {
   const value = e.target.value.toLowerCase();
   console.log("input: ", value)
